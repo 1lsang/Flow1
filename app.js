@@ -27,7 +27,7 @@ class App {
         };
         
         this.image = new Image();
-        this.image.src = 'Flow1/scream.jpg';
+        this.image.src = 'https://github.com/1lsang/Flow1/blob/main/scream.jpg';
         this.image.onload = () => {
             this.isLoaded = true;
             this.drawImage();
